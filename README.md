@@ -14,7 +14,7 @@ The updated code for implementing SOC-YOLO is displayed below:
 4. [SoftPool](https://doi.org/10.48550/arXiv.2101.00440) use [softpool.py](utils/softpool.py) and modify SPPF in [common.py](models/common.py)
 5. We modify and add [Weighted-tiplet attetion](https://doi.org/10.48550/arXiv.2010.03045) in [common.py](models/common.py) with variable hyper parameters alpha, beta, gamma, and advanced yaml is added in [P2_Triple.yaml](models/P2_Triple.yaml)
 
-## Referens
+## Reference
 - https://github.com/ultralytics/yolov5
 - Zheng, Zhaohui, et al. "Distance-IoU loss: Faster and better learning for bounding box regression." Proceedings of the AAAI conference on artificial intelligence. Vol. 34. No. 07. 2020.
 - Stergiou, Alexandros, Ronald Poppe, and Grigorios Kalliatakis. "Refining activation downsampling with SoftPool." Proceedings of the IEEE/CVF International Conference on Computer Vision. 2021.
